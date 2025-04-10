@@ -9,7 +9,7 @@
 
 char **tokenize(char *string)
 {
-	char **tokens = malloc(4 * sizeof(char*));
+	char **tokens = malloc(3 * sizeof(char*));
 	int token_count = 0;
 	char *token;
 	char *delimit = "/";
@@ -21,7 +21,7 @@ char **tokenize(char *string)
 	}
 
 	token = strtok(string, delimit);
-	while (token != NULL && token_count < 3)
+	while (token != NULL && token_count < 2)
 	{
 		tokens[token_count++] = token;
 		token = strtok(NULL, delimit);
