@@ -14,6 +14,11 @@ int get_current_year(void);
 int is_month(char *str);
 void error_msg(const char *message);
 int *validate(char **tokens);
+int is_leap_year(int year);
+int day_of_week(int yr, int mon);
+int number_of_days(int mon, int yr);
+int *calendar_grid(int yr, int mon);
+void print_month(int yr, int mon);
 
 #endif
 
