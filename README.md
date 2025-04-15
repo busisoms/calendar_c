@@ -20,7 +20,7 @@ This project is a command-line calendar generator that displays monthly or yearl
 ## Compilation
 Compile all source files using:
 ```bash
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o Calendar
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o cal
 ```
 
 ## Usage
